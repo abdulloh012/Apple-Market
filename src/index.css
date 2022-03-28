@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  /* Navbar */
+  .navbar-nav li a{
+    font-size: 17px;
+  }
+  .navbar-brand{
+    letter-spacing: 3px;
+  }
+  
+  /* Card */
+  .card{
+    transition: all 0.5s ease;
+    width: 16rem;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Product */
+  .product img {
+    transition: all 0.5s ease;
+    height: 400px;
+  }
+  .product img:hover{
+    transform: scale(1.1);
+  }
+  /* caruse-img */
+  .caruse-image{
+      height: 600px;
+  }
+  /* about-img */
+  .about-img{
+      height: 400px;
+      width: 400px;
+  }
+  /* cart img */
+  .cart-img{
+      height: 200px;
+      width: 180px;
+  }
+  @media only screen and (max-width: 320px) {
+    .card{
+        width: 9rem;
+        padding: 5px;
+    }
+    .card .card-title{
+        font-size: 15px;
+    }
+    .carusel-image{
+        height: 280px;
+    }
+    .about-img{
+        height: 200px;
+        width: 180px;
+    }
+    .product img{
+        height: 200px;
+        padding-bottom: 15px;
+    }
+    .cart-img{
+        height: 100px;
+        width: 90px;
+        padding-bottom: 10px;
+    }
+  }
